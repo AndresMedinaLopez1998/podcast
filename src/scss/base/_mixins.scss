@@ -65,3 +65,10 @@
         margin: -1.4rem 0 0 0;
     }
 }
+
+@mixin iconoBg($url) {
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-position: 50% 2rem; // 50% horizontal y 2rem hacia arriba y abajo
+    background-size: 10rem;
+}
